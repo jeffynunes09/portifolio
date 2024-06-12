@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-
+import img from '../assets/seta.png'
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-[80vh] mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[80px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -16,9 +16,9 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Olá, sou <span className='text-[#915EFF] px-5'>  Jefferson <span className='text-[#fff] px-5'> Nunes</span></span>
+            Olá, sou <span className='text-[#915EFF] px-5 mb-4'>  Jefferson <span className='text-[#fff] px-5 mb-4'> Nunes</span></span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-4 text-white-100`}>
           Desenvolvedor Web <br className='sm:block hidden' />
             
           </p>
@@ -26,28 +26,23 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas />
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-      
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
-            />
-          </div>
-        </a>
-        
-      </div>
 
-      <span className="absolute xs:mb-[2.2rem] mb-5 w-full flex justify-center items-center ">Clique para ver mais</span>
-     
+    <div className='absolute bottom-100 w-full flex justify-center items-center'>
+      <div className='w-[90px] h-[100px] rounded-3xl flex justify-center items-start p-2'>
+        <a href='#about'>
+          <motion.img
+            src={img}
+            alt="Imagem piscando"
+            initial={{ opacity: 1 }}
+            animate={{ opacity: [1, 0, 1] }}
+            transition={{ duration: 1, repeat: Infinity }}
+            style={{ width: '60px', height: '70px', cursor: 'pointer' }}
+          />
+        </a>
+      </div>
+    </div>
+
+   
     </section>
   );
 };
