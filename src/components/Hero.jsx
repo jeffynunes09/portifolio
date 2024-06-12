@@ -46,7 +46,7 @@ const Hero = () => {
         
       </div>
 
-      <span className="absolute xs:bottom-0 bottom-5 w-full flex justify-center items-center ">Clique para ver mais</span>
+      <span className="absolute xs:mb-[2.2rem] mb-5 w-full flex justify-center items-center ">Clique para ver mais</span>
      
     </section>
   );
