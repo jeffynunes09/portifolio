@@ -25,9 +25,9 @@ AOS.init({
           <Hero />
         </div>
         <About />
+        <Works />
         <Experience />
         <Tech />
-        <Works />
         
         <div className='relative z-0'>
           <Contact />
