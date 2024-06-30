@@ -12,7 +12,7 @@ export default function Footer() {
   </a>
  
  
-  <a href="https://www.instagram.com/jeffynunespvd/">
+  <a href="https://www.instagram.com/jeffyndev/">
  
   <span>Instagram</span>
   </a>
