@@ -32,9 +32,13 @@ import learning from "./learning.png"
 import costs1 from "./costs.jpeg"
 import form from "./form.jpeg"
 import agency from "./agency.png"
+import logo1 from './logo1.png'
+import jnNews from "./jnNews.jpeg"
 
 export {
-  netflix1,
+  jnNews,
+  logo1,
+    netflix1,
   costs,
   netflix,
   letter,

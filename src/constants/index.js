@@ -23,7 +23,8 @@ import {
     learning,
     costs1,
     form,
-    agency
+    agency,
+    jnNews
     
   } from "../assets";
   
@@ -216,6 +217,27 @@ import {
   
   const projects = [
     {
+      name: "Projeto JN News",
+      description:'JN News é um portal de notícias onde os usuários podem se cadastrar, fazer login e acessar conteúdos exclusivos. O projeto ainda está em desenvolvimento e algumas funcionalidades adicionais, como inserção de comentários, likes nas postagens e edição do perfil do usuário, estão em progresso.',
+      tags: [
+        {
+          name: "MERN",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "express",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jnNews,
+      source_code_link: "https://github.com/jeffynunes09/api-course-mern-thicode",
+      link:"https://front-course-merne-thicode.vercel.app/"
+    },
+    {
       name: "API REST",
       description:
         "API RESTful com Node.js e MongoDB | CRUD com Node, Express e Mongoose. O objetivo é criar um sistema para disponibilizar uma lista com as pessoas cadastradas no banco de dados.",
@@ -279,7 +301,7 @@ import {
         },
       ],
       image: costs1,
-      source_code_link: "https://costs-react-five.vercel.app/",
+      source_code_link: "https://github.com/jeffynunes09/costs-react",
       link: "https://costs-react-five.vercel.app/",
     },
     {
@@ -301,7 +323,7 @@ import {
         },
       ],
       image: netflix1,
-      source_code_link: "https://netflix-clone-three-alpha-78.vercel.app/",
+      source_code_link: "https://github.com/jeffynunes09/netflix-clone",
       link: "https://netflix-clone-three-alpha-78.vercel.app/",
     },
     {
@@ -323,7 +345,7 @@ import {
         },
       ],
       image: form,
-      source_code_link: "https://form-tailwind-typescript-react.vercel.app/",
+      source_code_link: "https://github.com/jeffynunes09/form-tailwind-typescript-react",
       link: "https://form-tailwind-typescript-react.vercel.app/",
     },
     {
@@ -367,7 +389,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://my-app-jeffynunes09-jeffersons-projects-a8e3c90e.vercel.app",
+      source_code_link: "https://github.com/jeffynunes09/portifolio-01",
       link: "https://my-app-jeffynunes09-jeffersons-projects-a8e3c90e.vercel.app",
     },
   ];

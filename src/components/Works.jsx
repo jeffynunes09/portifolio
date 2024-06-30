@@ -9,7 +9,7 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
-  index,
+  link,
   name,
   description,
   tags,
@@ -40,7 +40,7 @@ const ProjectCard = ({
         </div>
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px] hover:scale-105 hover:text-[#392647]'>
-            <a href={source_code_link}>{name}</a>
+            <a  target="_blank" href={link}>{name}</a>
           </h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
