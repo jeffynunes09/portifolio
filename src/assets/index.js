@@ -34,7 +34,7 @@ import form from "./form.jpeg"
 import agency from "./agency.png"
 import logo1 from './logo1.png'
 import jnNews from "./jnNews.jpeg"
-import codigoCerto from './codigoCerto.jpeg'
+import codigoCerto from './codigoCerto.jfif'
 export {
   jnNews,
   logo1,
