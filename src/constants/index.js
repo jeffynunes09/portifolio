@@ -21,7 +21,7 @@ import {
     tripguide,
     threejs,
     learning,
-    costs1,
+    codigoCerto,
     form,
     agency,
     jnNews
@@ -283,26 +283,26 @@ import {
     },
     
     {
-      name: "Costs",
+      name: "Trilha Codigo Certo",
       description:
-        "Costs é um SPI criado em React. Um site com intuito de organizar orçamentos para diversos projetos.O site foi criado para gerenciar projetos e cadastras servios com determinado custo que esteja dentro do orçamento estipulado. Utilizamos  a lib Json-server como banco de dados para o front-end do projeto. No curso de react foram utilizados conceitos fundamentais como , react-router, componetização react-icons entre outros",
+        "Este projeto tem como objetivo desenvolver uma aplicação web completa para gerenciamento de projetos, juntamente com um servidor back-end. A aplicação web permitirá aos usuários listar, cadastrar,editar e exlcuir proejtos ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "json-server",
+          name: "mern",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mongo",
           color: "pink-text-gradient",
         },
       ],
-      image: costs1,
-      source_code_link: "https://github.com/jeffynunes09/costs-react",
-      link: "https://costs-react-five.vercel.app/",
+      image: codigoCerto,
+      source_code_link: "https://github.com/jeffynunes09/TrilhaFullStackJR-JUN15",
+      link: "https://trilha-codigo-certo-frontend.vercel.app/",
     },
     {
       name: "Netflix clone",
