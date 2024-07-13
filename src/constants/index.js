@@ -24,7 +24,8 @@ import {
     codigoCerto,
     form,
     agency,
-    jnNews
+    jnNews,
+    karol
     
   } from "../assets";
   
@@ -217,6 +218,50 @@ import {
   
   const projects = [
     {
+      name: "Trilha Codigo Certo",
+      description:
+        "Este projeto tem como objetivo desenvolver uma aplicação web completa para gerenciamento de projetos, juntamente com um servidor back-end. A aplicação web permitirá aos usuários listar, cadastrar,editar e exlcuir proejtos ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mern",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongo",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: codigoCerto,
+      source_code_link: "https://github.com/jeffynunes09/TrilhaFullStackJR-JUN15",
+      link: "https://trilha-codigo-certo-frontend.vercel.app/",
+    },
+    {
+      name: "Karol Personal",
+      description:
+        "Landing page. Karol é uma profissional dedicada e apaixonada por ajudar seus clientes a alcançarem seus objetivos de saúde e bem-estar. Com anos de experiência na área de fitness, Karol oferece um serviço personalizado e focado nas necessidades individuais de cada pessoa.",
+      tags: [
+        {
+          name: "css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "html",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: karol,
+      source_code_link: "https://projeto-karol-personal.vercel.app/",
+      link: "https://projeto-karol-personal.vercel.app/",
+    },
+    {
       name: "Projeto JN News",
       description:'JN News é um portal de notícias onde os usuários podem se cadastrar, fazer login e acessar conteúdos exclusivos. O projeto ainda está em desenvolvimento e algumas funcionalidades adicionais, como inserção de comentários, likes nas postagens e edição do perfil do usuário, estão em progresso.',
       tags: [
@@ -282,28 +327,7 @@ import {
       link:"https://web-agency-beta.vercel.app/"
     },
     
-    {
-      name: "Trilha Codigo Certo",
-      description:
-        "Este projeto tem como objetivo desenvolver uma aplicação web completa para gerenciamento de projetos, juntamente com um servidor back-end. A aplicação web permitirá aos usuários listar, cadastrar,editar e exlcuir proejtos ",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mern",
-          color: "green-text-gradient",
-        },
-        {
-          name: "mongo",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: codigoCerto,
-      source_code_link: "https://github.com/jeffynunes09/TrilhaFullStackJR-JUN15",
-      link: "https://trilha-codigo-certo-frontend.vercel.app/",
-    },
+    
     {
       name: "Netflix clone",
       description:
