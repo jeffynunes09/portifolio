@@ -55,7 +55,7 @@ import {
       icon: web,
     },
     {
-      title: "Sass / Tailwind / CSS",
+      title: "Styled / Tailwind / CSS",
       icon: web,
     },
     {
@@ -118,49 +118,60 @@ import {
   
   const experiences = [
     {
+      title: "Faculdade UniAmerica",
+      company_name: "Análise e Desenvolvimento de Sistemas",
+      icon: learning,
+      iconBg: "#red",
+      date: "Abril de 2022",
+      points: [
+        "Com destaque no MEC e aulas 100% online, você aprende a criar softwares e apps, gerenciar banco de dados, manjar de BI e Big Data e muito mais pra voar na carreira. Vem conhecer:",
+        "UniAmerica Faculdade"
+        
+      ],
+    },
+  
+    {
       title: "Ingles Extremo ",
       company_name: "Do zero a fluência",
       icon: learning,
       iconBg: "#red",
-      date: "Maio de 2021",
+      date: "Maio de 2022",
       points: [
         "Curso de Ingles feito em 2021  - Professor Paulo - Udemy",
         "17 horas",
         
       ],
     },
+    {
+      title: "Ingles Rápido ",
+      company_name: "Fluêcia sem enrolação",
+      icon: learning,
+      iconBg: "#red",
+      date: "Maio de 2022",
+      points: [
+        "Curso de Ingles feito em 2024  - Professor Marcus Vinicius - Udemy",
+        "50 horas"
+      ],
+    },
   
     {
-      title: "Clone Neftlix ",
-      company_name: "React JS",
-      icon: netflix,
+      title: "Curso React JS",
+      company_name: "Hora de Codar",
+      icon: reactjs,
       iconBg: "#red",
       date: "Março de 2023",
       points: [
-        "Desenvolvi um clone da pagina inical do site Netflix, utilizando React JS, uma aplição totalmente responsiva.Usei uma APi do THE MOVIE BD",
-        "Projeto Frontend Finalizado.",
+        "O curso é projetado para ensinar os fundamentos e práticas avançadas do desenvolvimento de interfaces de usuário dinâmicas e responsivas utilizando a biblioteca React. Este curso é ideal para desenvolvedores que desejam aprimorar suas habilidades em front-end e criar aplicações web modernas e eficientes.",
       ],
     },
     {
-      title: "Costs",
-      company_name: "React JS",
-      icon: costs,
+      title: "Curso MERN ThiCode",
+      company_name: "MERN Stack",
+      icon: meta,
       iconBg: "#E6DEDD",
       date: "Janeiro de 2024",
       points: [
-        "Um projeto feito ao final do curso de React JS, no qual desenvolvi um site que gerencia orçamentos",
-        "Utilizando recursos e fundamentos essenciais para o apredizado da biblioteca",
-      ],
-    },
-    {
-      title: "Formulário Newsletter",
-      company_name: "Typescript",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Janeiro de 2024",
-      points: [
-      "Um formulário feito em React,Typescript e estilizado com Tailwind",
-      "Simples projeto, feito com intuito de praticar o aprendizado na liguagem,o site contém uma validação de dados,",
+        "O curso Desenvolvimento Full Stack com MERN: Criação de um Portal de Notícias é um programa abrangente que capacita os alunos a dominarem as tecnologias MongoDB, Express.js, React e Node.js (MERN). Este curso é ideal para desenvolvedores que desejam se tornar proficientes no desenvolvimento full stack e construir aplicações web robustas e escaláveis. O curso culmina com um projeto prático onde os alunos criarão um portal de notícias completo.",
       ],
     },
     {
@@ -176,17 +187,7 @@ import {
       ],
     },
   
-    {
-      title: "Ingles Rápido ",
-      company_name: "Fluêcia sem enrolação",
-      icon: learning,
-      iconBg: "#red",
-      date: "Maio de 2024",
-      points: [
-        "Curso de Ingles feito em 2024  - Professor Marcus Vinicius - Udemy",
-        "50 horas"
-      ],
-    },
+
   ];
   
   const testimonials = [

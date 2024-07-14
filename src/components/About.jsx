@@ -47,9 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Olá! Sou um desenvolvedor MERN stack apaixonado, com habilidade para criar sites elegantes e eficientes. Também me aventuro no desenvolvimento WordPress, aprimorando constantemente minhas habilidades em ambos os campos. Embora minha proficiência em inglês seja básica, faço questão de praticar diariamente, impulsionado pela minha ambição de aprender e crescer.
-
-        Apesar de ser ambicioso em dominar minha área, mantenho-me humilde, reconhecendo que ainda estou no início da minha carreira. Adoro desafios e estou sempre ansioso para enfrentar novos projetos que me levem além da minha zona de conforto. Vamos colaborar e construir algo incrível juntos!
+       Olá! Sou um desenvolvedor MERN stack apaixonado, com habilidade para criar sites elegantes e eficientes. Atualmente, estou aprendendo análise de dados, linguagem Python e bancos de dados SQL, aprimorando constantemente minhas habilidades em todos esses campos. Embora minha proficiência em inglês seja básica, faço questão de praticar diariamente, impulsionado pela minha ambição de aprender e crescer. Apesar de ser ambicioso em dominar minha área, mantenho-me humilde, reconhecendo que ainda estou no início da minha carreira. Adoro desafios e estou sempre ansioso para enfrentar novos projetos que me levem além da minha zona de conforto. Vamos colaborar e construir algo incrível juntos!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
