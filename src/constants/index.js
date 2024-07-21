@@ -25,7 +25,8 @@ import {
     form,
     agency,
     jnNews,
-    karol
+    karol,
+    mercado
     
   } from "../assets";
   
@@ -51,7 +52,7 @@ import {
   
   const services = [
     {
-      title: "Typescript / Javascript / React JS / Next JS",
+      title: "Python / Javascript / React JS / Next JS",
       icon: web,
     },
     {
@@ -59,11 +60,11 @@ import {
       icon: web,
     },
     {
-      title: "Mongo DB / Express JS / Axios",
+      title: "Mongo DB / Express JS / MySQL",
       icon: backend,
     },
     {
-      title: "JWT / GIT",
+      title: "JWT / SQLAlchemy /" ,
       icon: creator,
     },
   ];
@@ -239,6 +240,29 @@ import {
       image: codigoCerto,
       source_code_link: "https://github.com/jeffynunes09/TrilhaFullStackJR-JUN15",
       link: "https://trilha-codigo-certo-frontend.vercel.app/",
+    },
+    {
+      name: "API PYTHON FLASK SQLALCHEMY",
+      description:
+        "API desenvolvida usando Python, MySQL, Flask e SQLAlchemy. Este projeto demonstra minhas habilidades em desenvolvimento backend e gerenciamento de banco de dados, além de um toque de design frontend.Principais Recursos Backend: Desenvolvido com Flask e SQLAlchemy, a API se conecta a um banco de dados MySQL com duas tabelas: uma para produtos e outra para categorias.Banco de Dados: Utiliza MySQL para um armazenamento. SQLAlchemy para simplificar as interações com o banco de dados. Frontend: Uma página simples, mas funcional, em HTML e JavaScript que busca e exibe dados da API, imitando o design e a funcionalidade do Mercado Livre."
+        ,
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "myswl",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mercado,
+      source_code_link: "https://github.com/jeffynunes09/api-flask-SQLAlchemy",
+      link: "https://github.com/jeffynunes09/api-flask-SQLAlchemy",
     },
     {
       name: "Karol Personal",

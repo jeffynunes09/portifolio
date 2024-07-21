@@ -36,6 +36,7 @@ import logo1 from './logo1.png'
 import jnNews from "./jnNews.jpeg"
 import codigoCerto from './codigoCerto.jfif'
 import karol from "./karol.jfif"
+import mercado from "./mercado.jfif"
 export {
   jnNews,
   logo1,
@@ -74,5 +75,6 @@ export {
   form,
   agency,
   codigoCerto,
-  karol
+  karol,
+  mercado
 };
