@@ -222,7 +222,7 @@ import {
     {
       name: "Trilha Codigo Certo",
       description:
-        "Este projeto tem como objetivo desenvolver uma aplicação web completa para gerenciamento de projetos, juntamente com um servidor back-end. A aplicação web permitirá aos usuários listar, cadastrar,editar e exlcuir proejtos ",
+        "Este projeto tem como objetivo desenvolver uma aplicação web completa para gerenciamento de projetos, juntamente com um servidor back-end. A aplicação web permitirá aos usuários listar, cadastrar,editar e excluir projetos. ",
       tags: [
         {
           name: "react",
