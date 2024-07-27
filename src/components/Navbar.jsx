@@ -48,7 +48,7 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Desenvolvedor Web</span>
           </p>
         </Link>
-        <Link to= "https://docs.google.com/document/d/1JBgXSEjBEh13hgk7wRGkRb0xGZ31hcoT/edit?usp=sharing&ouid=102729670069791072059&rtpof=true&sd=true">
+        <Link to= "https://drive.google.com/file/d/1rJEMHuOwSB6iFYOhKJJdfvqtxKqzlg0f/view?usp=sharing">
          <button className="font-poppins font-medium cursor-pointer text-[1rem] max-xl:hidden text-secondary hover:text-white">Meu CV</button>
         </Link>
 
