@@ -48,9 +48,11 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Desenvolvedor Web</span>
           </p>
         </Link>
-        <Link to= "https://drive.google.com/file/d/1rJEMHuOwSB6iFYOhKJJdfvqtxKqzlg0f/view?usp=sharing">
+         <a href="https://drive.google.com/file/d/1rJEMHuOwSB6iFYOhKJJdfvqtxKqzlg0f/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+ 
+
          <button className="font-poppins font-medium cursor-pointer text-[1rem] max-xl:hidden text-secondary hover:text-white">Meu CV</button>
-        </Link>
+         </a>
 
         <ul className='list-none hidden lg:flex flex-row gap-10'>
           {navLinks.map((nav) => (

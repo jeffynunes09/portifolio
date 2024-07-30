@@ -47,7 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       Olá! Sou um desenvolvedor MERN stack apaixonado, com habilidade para criar sites elegantes e eficientes. Atualmente, estou aprendendo análise de dados, linguagem Python e bancos de dados SQL, aprimorando constantemente minhas habilidades em todos esses campos. Embora minha proficiência em inglês seja básica, faço questão de praticar diariamente, impulsionado pela minha ambição de aprender e crescer. Apesar de ser ambicioso em dominar minha área, mantenho-me humilde, reconhecendo que ainda estou no início da minha carreira. Adoro desafios e estou sempre ansioso para enfrentar novos projetos que me levem além da minha zona de conforto. Vamos colaborar e construir algo incrível juntos!
+        Olá! Sou um desenvolvedor entusiasta em busca de uma oportunidade de estágio para aplicar e expandir meus conhecimentos em várias tecnologias. Tenho sólida experiência em JavaScript, React, Express JS, Nest JS, Flask, Tailwind e Styled Components. Adoro criar aplicações interativas e eficientes, e estou especialmente familiarizado com o desenvolvimento utilizando Nest JS com TypeORM e PostgreSQL, assim como com a stack MERN.
+
+Recentemente, comecei a explorar o mundo do desenvolvimento mobile com React Native, o que tem sido uma experiência enriquecedora e estimulante. Estou ansioso para fazer parte de uma equipe dinâmica onde possa contribuir ativamente e continuar a aprimorar minhas habilidades através de desafios reais e práticos.
+
+Se você está à procura de alguém dedicado e apaixonado por tecnologia, que está sempre buscando aprender e evoluir, estou aqui para colaborar e crescer junto com você.
+
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

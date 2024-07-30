@@ -37,6 +37,8 @@ import jnNews from "./jnNews.jpeg"
 import codigoCerto from './codigoCerto.jfif'
 import karol from "./karol.jfif"
 import mercado from "./mercado.jfif"
+import gerador from "./gerador.jpg"
+import codigoCerto1 from './company/codigoCerto.png'
 export {
   jnNews,
   logo1,
@@ -76,5 +78,7 @@ export {
   agency,
   codigoCerto,
   karol,
-  mercado
+  mercado,
+  gerador,
+  codigoCerto1
 };

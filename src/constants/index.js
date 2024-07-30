@@ -26,7 +26,9 @@ import {
     agency,
     jnNews,
     karol,
-    mercado
+    mercado,
+    gerador,
+    codigoCerto1
     
   } from "../assets";
   
@@ -52,21 +54,29 @@ import {
   
   const services = [
     {
-      title: "Python / Javascript / React JS / Next JS",
+      title: " React JS | Mongo DB | Node JS | Express JS ",
       icon: web,
     },
+    
     {
-      title: "Styled / Tailwind / CSS",
-      icon: web,
-    },
-    {
-      title: "Mongo DB / Express JS / MySQL",
+      title: "Python | Flask | SQLAlachemy | MySQL",
       icon: backend,
     },
     {
-      title: "JWT / SQLAlchemy /" ,
+      title: "Nest JS | TypeOrm | Postgres" ,
       icon: creator,
     },
+    {
+      title: "React Native | Next Js| Expo |  ",
+      icon: web,
+    },
+    {
+      title: "Styled Components | Tailwind | CSS ",
+      icon: web,
+    },
+
+   
+  
   ];
   
   const technologies = [
@@ -118,6 +128,19 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Desenvolvedor Fullstack",
+      company_name: "Código Certo Coders",
+      icon: codigoCerto1,
+      iconBg: "#111",
+      date: "Julho 2024",
+      points: [
+        "Habilidades em criar interfaces de usuário responsivas com React",
+        " Desenvolver APIs RESTful com Node.js e Express,Nest JS com TypeORM e gerenciar bancos de dados MongoDB e e PostgreSQL .",
+        "Participação em reuniões de planejamento e discussão de requisitos."
+      ],
+    },
+  
     {
       title: "Faculdade UniAmerica",
       company_name: "Análise e Desenvolvimento de Sistemas",
@@ -175,19 +198,7 @@ import {
         "O curso Desenvolvimento Full Stack com MERN: Criação de um Portal de Notícias é um programa abrangente que capacita os alunos a dominarem as tecnologias MongoDB, Express.js, React e Node.js (MERN). Este curso é ideal para desenvolvedores que desejam se tornar proficientes no desenvolvimento full stack e construir aplicações web robustas e escaláveis. O curso culmina com um projeto prático onde os alunos criarão um portal de notícias completo.",
       ],
     },
-    {
-      title: "Api Rest",
-      company_name: "Freelancer",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Fevereiro 2024",
-      points: [
-        "Este foi o projeto que desenvolvi que consiste em uma API REST feito em Node JS, Express e utilizando o MongoDB Atlas.",
-        "São 7 operações, sendo uma de cadastro de Usuário, outra de autenticação com token, usando JWT. O objetivo é criar um sistema para disponibilizar uma lista com as usuários cadastrados no banco de dados.",
-        " Estes usuários podem cadastrar projetos e cada projeto pode conter tarefas. O sistema faz a verificação dos dados do usuários, para que ele possa cadastrar seus projetos, e retorna um erro caso o usuário não esteja cadastrado. Rotas testadas no Insominia."
-      ],
-    },
-  
+
 
   ];
   
@@ -354,26 +365,26 @@ import {
     
     
     {
-      name: "Netflix clone",
+      name: "Gerador de Senhas",
       description:
-      "Uma pagina responsiva, feita em React, utilizando a API DO THEMOVIEDB. É um projeto inicial, pretendo incrementar funcionalidades e aceito criticas ou sugestões.",
+      " Descrição do Projeto: Gerador de Senhas o Gerador de Senhas é uma aplicação mobile desenvolvida com React Native e Expo, projetada para criar e armazenar senhas seguras de forma eficiente. Este projeto combina uma interface intuitiva com funcionalidades essenciais de segurança, permitindo que os usuários gerem e gerenciem suas senhas com facilidade.Funcionalidades Principais:Geração de Senhas Seguras: O aplicativo permite criar senhas complexas e personalizáveis, garantindo maior segurança para suas contas.Armazenamento e Gerenciamento de Senhas: As senhas geradas podem ser salvas e visualizadas em uma página dedicada, facilitando o acesso e a organização.Interface Intuitiva: Navegação fluida e design amigável, proporcionando uma experiência de usuário agradável.",
       tags: [
         {
-          name: "react",
+          name: "react-native",
           color: "blue-text-gradient",
         },
         {
-          name: "javascript",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "expo",
           color: "pink-text-gradient",
         },
       ],
-      image: netflix1,
-      source_code_link: "https://github.com/jeffynunes09/netflix-clone",
-      link: "https://netflix-clone-three-alpha-78.vercel.app/",
+      image: gerador,
+      source_code_link: "https://github.com/jeffynunes09/first-project-react-native",
+      link: "https://github.com/jeffynunes09/first-project-react-native",
     },
     {
       name: "Formulário Newsletter",
