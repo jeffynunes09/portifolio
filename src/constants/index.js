@@ -315,8 +315,8 @@ import {
         },
       ],
       image: jnNews,
-      source_code_link: "https://github.com/jeffynunes09/api-course-mern-thicode",
-      link:"https://front-course-merne-thicode.vercel.app/"
+      source_code_link: "https://github.com/jeffynunes09/jnNews",
+      link:"https://jn-news-6bnej658j-jeffersons-projects-a8e3c90e.vercel.app/"
     },
     {
       name: "API REST",
