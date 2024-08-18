@@ -316,7 +316,7 @@ import {
       ],
       image: jnNews,
       source_code_link: "https://github.com/jeffynunes09/jnNews",
-      link:"https://jn-news-6bnej658j-jeffersons-projects-a8e3c90e.vercel.app/"
+      link:"https://jn-news.vercel.app/"
     },
     {
       name: "API REST",
