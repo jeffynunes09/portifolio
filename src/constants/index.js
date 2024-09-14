@@ -22,6 +22,7 @@ import {
     threejs,
     learning,
     codigoCerto,
+    codigo,
     form,
     agency,
     jnNews,
@@ -230,6 +231,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Codigo Certo",
+      description:
+        "Este projeto está sendo desenvolvido para a comunidade Código Certo com o objetivo de facilitar a administração de projetos e equipes, permitindo uma gestão eficiente e colaborativa. A plataforma oferece uma interface intuitiva para gerenciar tarefas, monitorar o progresso e colaborar em tempo real.",
+      tags: [
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nest",
+          color: "green-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: codigo,
+      source_code_link: "https://github.com/jeffynunes09/c2-server",
+      link: "https://c2-platform.vercel.app/",
+    },
     {
       name: "Trilha Codigo Certo",
       description:

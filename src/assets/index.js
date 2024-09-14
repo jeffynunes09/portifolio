@@ -39,7 +39,9 @@ import karol from "./karol.jfif"
 import mercado from "./mercado.jfif"
 import gerador from "./gerador.jpg"
 import codigoCerto1 from './company/codigoCerto.png'
+import codigo from "./codigo.jfif"
 export {
+  codigo,
   jnNews,
   logo1,
     netflix1,
