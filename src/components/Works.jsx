@@ -16,6 +16,11 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+
+
+  const maxLength = 150;
+
+
   return (
     <div>
       <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] md:w-[450px] xl:w-[350px] w-full'>
@@ -42,7 +47,7 @@ const ProjectCard = ({
           <h3 className='text-white font-bold text-[24px] hover:scale-105 hover:text-[#392647]'>
             <a  target="_blank" href={link}>{name}</a>
           </h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className='mt-2 text-secondary text-[14px]'>{description.length > maxLength ? `${description.slice(0,maxLength)}...` : `${description}.`} </p>
         </div>
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
@@ -58,12 +63,12 @@ const ProjectCard = ({
 
 const Works = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+  
+  },);
 
   return (
     <>
-      <div variants={textVariant()}>
+      <div>
         <div>
           <p className={`${styles.sectionSubText}`}>Meus Projetos</p>
           <h2 className={`${styles.sectionHeadText}`}>Veja meus projetos.</h2>
@@ -71,7 +76,6 @@ const Works = () => {
       </div>
       <div className='w-full flex'>
         <p
-          variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           Seguem meus projetos, criados com muito esforço e aprendizado na minha trajetória como Desenvolvedor. Continuo procurando me aperfeiçoar e estou sempre aberto a críticas e sugestões.
